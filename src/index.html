@@ -4,9 +4,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Document</title>
 </head>
 <body>
-    
+    <header> Home > Provedores</header>
+    <section>
+        <form class="border border-dark" action="">
+            <h2>Filtros</h2>
+            <div class="row">
+                <div class="col-sm">
+                    <label for="">Cadena:</label>
+                    <select name="" id="">
+                        <option value="" selected>- Seleccione Cadena -</option>
+                        <option value="">Sonesta</option>
+                        <option value="">Hilton</option>
+                        
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <label for="">Ruc:</label>
+                    <input type="number">
+                </div>
+                <div class="col-sm">
+                    <label for="">Razon Social:</label>
+                    <input type="text">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <label for="">País</label>
+                    <select name="" id="">
+                        <option value="" selected>- Seleccione País -</option>
+                        <option value="" >Perú</option>
+                        <option value="" >Argentina</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <label for="">Ciudad</label>
+                    <select name="" id="">
+                        <option value="" selected>- Seleccione Ciudad -</option>
+                        <option value="" >Lima</option>
+                        <option value="" >Cusco</option>
+                        <option value="" >Buenos Aires</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <label for="">Distrito</label>
+                    <select name="" id="">
+                        <option value="" selected>- Seleccione Distrito -</option>
+                        <option value="" >Miraflores</option>
+                        <option value="" >San Isidro</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <label for="">Estado:</label>
+                    <select name="" id="">
+                        <option value="" selected>Activo</option>
+                        <option value="" >Inactivo</option>
+                    </select>
+                </div>
+                <div class="col-sm">
+                    <button type="button" id="buscar">Buscar</button>
+                    <button type="button" id="limpiar">Limpiar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+    <section>
+        <div class="row">
+            <div class="col-sm">
+                <h2> Todos los proveedores</h2>
+            </div>
+            <div class="col-sm float-right">
+                <button type="button">Cadenas</button>
+                <button type="button">Nuevo Proveedor</button>
+            </div>
+        </div>
+        <div id="insert-proveedor">
+
+    </section>
 </body>
 </html>

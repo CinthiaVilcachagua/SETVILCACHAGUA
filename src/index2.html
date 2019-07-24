@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <header class="border border-dark">
+        <h1>Nuevo Proveedor</h1>
+    </header>
+    <main>
+        <section>
+          <div class="border border-dark">        
+            <h3>Datos básicos</h3>
+            <form action="">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="">Tipo persona</label>
+                        <select name="" id="select-persona">
+                            <option value="juridica" selected>Jurídica</option>
+                            <option value="natural" >Natural</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <label for="">Cadena</label>
+                        <select name="" id="select-cadena">
+                            <option value="sonesta" selected>Sonesta</option>
+                            <option value="hilton" >Hilton</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <label for="">Nro. Documento Final</label>
+                        <input type="number" id="text-document-final">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="">Razón Social</label>
+                        <input type="text" id="text-razon-social">
+                    </div>
+                    <div class="col-sm">
+                        <label for="">Razón Comercial</label>
+                        <input type="text" id="text-razon-comercial">
+                    </div>
+                </div>
+            </form>
+          </div>  
+        </section>
+        <section>
+          <div class="border border-dark">
+            <h3>Locación</h3>
+            <form action="">
+                <div class="row">
+                    <div class="col-sm">
+                        <label for="">País</label>
+                        <select name="" id="select-pais">
+                            <option value="" selected>Perú</option>
+                            <option value="" >Argentina</option>
+                        </select>
+                    </div>
+                    <div class="col-sm">
+                        <label for="">Ciudad</label>
+                        <select name="" id="select-ciudad">
+                            <option value="" selected>Lima</option>
+                            <option value="" >Cusco</option>
+                            <option value="" >Buenos Aires</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <label for="">Dirección</label>
+                        <input type="text" id="text-direccion">
+                    <div>
+                </div>
+            </form>
+          </div>  
+        </section>
+        <section >
+          <div class="border border-dark">
+            <h3>Otros datos</h3>
+            <form action="">
+                <div class="row">
+                    <div>
+                        <label for="">Teléfono</label>
+                        <input type="number" id="phone">
+                    </div>
+                    <div class="col-sm">
+                        <label for="">Correo electrónico</label>
+                        <input type="email" id="email">
+                    </div>
+                    <div class="col-sm">
+                        <label for="">Es domiciliado</label>
+                        <label><input type="radio" id="">Si</label>
+                        <label><input type="radio" id="">No</label>
+                    </div>
+                </div>
+            </form>
+          </div>
+        </section>
+    </main>
+    <div>
+        <div class="float-sm-left">
+        <button id="btn-cerrar" type="button">Cerrar</button>
+        </div>
+        <div class="float-sm-right">
+        <button id="btn-guardar" type="button">Grabar</button>
+        </div>
+    </div>
+    <script type="module" src="main.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.1/firebase-app.js"></script>
+</body>
+</html>
